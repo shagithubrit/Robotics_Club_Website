@@ -288,6 +288,7 @@ color: #e76668;
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  margin-left: 8rem;
 }
 
 #footer .footer-top .first::after {
@@ -310,6 +311,11 @@ color: #e76668;
   bottom: 0;
   left: 0;
 }
+
+#footer .footer-top .third{
+  margin-left: 6rem
+}
+
 #footer .footer-top .third::after {
   content: '';
   position: absolute;
@@ -320,6 +326,7 @@ color: #e76668;
   bottom: 0;
   left: 0;
 }
+
 
 #footer .footer-top .footer-links {
   margin-bottom: 20px;
@@ -342,6 +349,7 @@ color: #e76668;
   padding: 3px 0;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
